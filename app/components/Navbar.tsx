@@ -33,7 +33,7 @@ const Navbar = () => {
     {
       id: 5,
 
-      path: `/profile/${id}`,
+      path: `/profile/${id}/posts`,
       icon: <GoPerson />,
     },
   ];

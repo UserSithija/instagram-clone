@@ -1,8 +1,10 @@
 import Button from "@/app/components/Button";
 import ProfileNavbar from "@/app/components/ProfileNavbar";
+import UserControl from "@/app/components/UserControl";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { BiUser } from "react-icons/bi";
 import { FaTag } from "react-icons/fa";
 import { GoTag, GoVideo } from "react-icons/go";
 import { MdOutlineGridOn, MdRssFeed } from "react-icons/md";
@@ -38,9 +40,10 @@ export default async function ProfileLayout({
               <div className="flex flex-col gap-4 lg:flex-row">
                 <div className="flex items-center gap-5">
                   <h1 className="font-semibold tracking-wide text-xl">
+                    {/* you can get the username from clerk auth function */}
                     janedoe
                   </h1>
-                  <TfiMoreAlt />
+                  <UserControl />
                 </div>
 
                 <div className="flex gap-4">
