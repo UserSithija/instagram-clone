@@ -18,6 +18,8 @@ pnpm dev
 # or
 bun dev
 ```
+I used Clerk for authentication. You can follow [these instructions](https://clerk.com/) to configure your project.
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
